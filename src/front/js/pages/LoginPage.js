@@ -1,11 +1,7 @@
-import React, { useState, useEffect, useContext } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 
-import { Context } from "../store/appContext";
-
-export const Demo = () => {
-  const { store, actions } = useContext(Context);
-
+const Login = () => {
   return (
     <div className="text-center m-5-auto">
       <h2>Sign in to us</h2>
@@ -40,3 +36,5 @@ export const Demo = () => {
     </div>
   );
 };
+
+export default Login;
