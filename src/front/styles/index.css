@@ -1,10 +1,5 @@
-/* 
-    General Styles used on every website (Don't Repeat Yourself)
-*/
-body {
-  background-color: rgb(0, 189, 173);
+body{
   color: white;
-  font-family: arial, sans-serif;
 }
 .title {
   padding-top: 50px;
@@ -21,10 +16,11 @@ body {
 .left {
   width: 800px;
 }
-.xxx {
-  background-color: rgb(0, 189, 173);
+.signup{
+  position: absolute;
+  right: 0;
 }
-
-.hola {
-  margin-left: 1350px;
+.login {
+  position: absolute;
+  right: 3.5%;
 }
